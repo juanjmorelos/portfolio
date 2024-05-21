@@ -18,7 +18,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "typeRoots": ["./node_modules/@types", "./src"], // Asegúrate de que `./src` o la ubicación de tu `custom.d.ts` está incluida
   },
   "include": [
     "src"

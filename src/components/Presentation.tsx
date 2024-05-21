@@ -1,11 +1,12 @@
 import React from 'react'
 import { CircleAvatar } from './CircleAvatar'
+import imgAvatar from '../assets/avatarImage.jpg'
 
 export const Presentation = () => {
   return (
     <div className='presentation'>
         <div className="content">
-            <CircleAvatar img="../assets/avatarImage.jpg" alt='Imagen de perfil'/>
+            <CircleAvatar img={imgAvatar} alt='Imagen de perfil'/>
             <h1 className='name'>Juan Morelos</h1>
             <h2 className='career'>Ingeniero de sistemas</h2>
             <p className='cover-letter'>Ingeniero de sistemas con dos años de
